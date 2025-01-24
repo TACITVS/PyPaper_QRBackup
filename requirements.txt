@@ -1,0 +1,8 @@
+PyQt5==5.15.7
+pycryptodome==3.15.0
+qrcode[pil]==7.3.1
+pyzbar==0.1.9
+opencv-python==4.5.5.64
+numpy==1.21.5
+pillow==9.0.1
+argon2-cffi==21.3.0
