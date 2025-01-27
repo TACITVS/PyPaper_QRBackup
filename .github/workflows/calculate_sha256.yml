@@ -15,11 +15,8 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install dependencies
-      run: pip install hashlib
-
     - name: Calculate SHA256 hashes
       run: |
         for file in $(find . -type f); do
-          sha256sum "$file"
+          sha256sum "$file" >> files_hash.sha256
         done
