@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 PyQt5==5.15.7
 pycryptodome==3.15.0
 qrcode[pil]==7.3.1
@@ -5,4 +6,13 @@ pyzbar==0.1.9
 opencv-python==4.5.5.64
 numpy==1.21.5
 pillow==9.0.1
+=======
+PyQt5==5.15.7
+pycryptodome==3.15.0
+qrcode[pil]==7.3.1
+pyzbar==0.1.9
+opencv-python==4.5.5.64
+numpy==1.21.5
+pillow==9.0.1
+>>>>>>> ee6153b87e149ba8a12c70f47adb9953f9bef554
 argon2-cffi==21.3.0
