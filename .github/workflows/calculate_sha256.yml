@@ -2,6 +2,9 @@ name: Calculate SHA256 Hashes
 
 on: [push]
 
+permissions:
+  contents: write
+
 jobs:
   calculate_hashes:
     runs-on: ubuntu-22.04
