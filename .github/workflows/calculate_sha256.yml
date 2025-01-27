@@ -20,3 +20,11 @@ jobs:
         for file in $(find . -type f); do
           sha256sum "$file" >> files_hash.sha256
         done
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add files_hash.sha256
+        git commit -m "Update SHA256 hashes"
+        git push
