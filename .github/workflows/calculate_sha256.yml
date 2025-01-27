@@ -20,6 +20,3 @@ jobs:
         for file in $(find . -type f); do
           sha256sum "$file" >> files_hash.sha256
         done
-    - name: Overwrite files_hash.sha256
-      run: |
-        sha256sum * > files_hash.sha256
